@@ -2,6 +2,9 @@ import os
 import argparse
 from unicodedata import normalize
 
+# Built and tested using Python 3.9
+# Run command: python3 LaTeX2Unicode.py input_filename output_filename
+
 conversion_table = {
     'A': 'Ⲁ',                                       'a': 'ⲁ',
     'B': 'Ⲃ',                                       'b': 'ⲃ',
